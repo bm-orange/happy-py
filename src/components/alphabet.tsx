@@ -1,7 +1,7 @@
 import { useAudio } from "./useAudio";
 import data from "../data.json"
 export const Alphabet = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: number) => void }) => {
-  const {isPlaying, setIsPlaying, source, setSource, playAudio, pauseAudio} = useAudio()
+  const { isPlaying, source, setSource, playAudio } = useAudio()
 
   return (
     // 拼音字母页面
@@ -58,7 +58,7 @@ export const Alphabet = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n
             {/* 韵母列表 */}
             {data.vowels.map((v, i) => {
               return (
-                <div key={i} className="w-20 h-20 bg-purple-100 text-purple-600  rounded-full cursor-pointer flex gap-2 items-center justify-center p-4" onClick={(e) => {
+                <div key={i} className="w-20 h-20 bg-purple-100 text-purple-600  rounded-full cursor-pointer flex gap-2 items-center justify-center p-4" onClick={() => {
                   if (isPlaying) {
                     return
                   }

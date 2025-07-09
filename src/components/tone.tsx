@@ -1,13 +1,14 @@
 import { useState } from "react"
 import data from "../data.json"
 import { useAudio } from "./useAudio"
+
+type ToneType = "singleVowelTones" | "doubleVowelTones" | "noseVowelTones"
 export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: number) => void }) => {
   const tones = data.tones
   const [tone, setTone] = useState<typeof tones.singleVowelTones[0]>(tones.singleVowelTones[0])
-  const [toneIndex, setToneIndex] = useState<number>(0)
   const [toneType, setToneType] = useState<string>("singleVowelTones")
 
-  const {isPlaying, setIsPlaying, source, setSource, playAudio, pauseAudio} = useAudio()
+  const {isPlaying,  source, setSource, playAudio } = useAudio()
 
   const handleChangeSource = (newSource: string) => {
     if (isPlaying) {
@@ -90,7 +91,7 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
               <span className="h-full text-2xl font-bold mb-4">选择：</span>
                 <select className="bg-white border-2 border-green-300 rounded-full px-4 py-2 text-xl" disabled={isPlaying} defaultValue={toneType} onChange={(e) => {
                   setToneType(e.target.value)
-                  setTone(tones[e.target.value][0])
+                  setTone(tones[e.target.value as ToneType][0])
                 }}>
                   {/* 选项将通过JS动态添加 */}
                   <option value="singleVowelTones">单韵母：a o e ...</option>
@@ -99,7 +100,7 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
                 </select>
               </div>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 justify-items-center gap-4">
-                {tones[toneType].map((v, i) => {
+                {tones[toneType as ToneType].map((v, i) => {
                   return (
                     <div key={i} className="w-20 h-20 bg-blue-100 text-blue-600 rounded-full cursor-pointer flex gap-2 items-center justify-center p-4" onClick={() => {
                       if (isPlaying) {
