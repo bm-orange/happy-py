@@ -1,0 +1,753 @@
+{
+  "consonants": [
+    {
+      "char": "b",
+      "image": "https://s.coze.cn/image/ogzon9Oab8U/",
+      "audio": "consonants/b.mp3"
+    },
+    {
+      "char": "p",
+      "image": "https://s.coze.cn/image/34zK2KSgSDs/",
+      "audio": "consonants/p.mp3"
+    },
+    {
+      "char": "m",
+      "image": "https://s.coze.cn/image/y5g42AQp0w4/",
+      "audio": "consonants/m.mp3"
+    },
+    {
+      "char": "f",
+      "image": "https://s.coze.cn/image/GT4ZhyNPIro/",
+      "audio": "consonants/f.mp3"
+    },
+    {
+      "char": "d",
+      "image": "https://s.coze.cn/image/_fxaLoZXy-Y/",
+      "audio": "consonants/d.mp3"
+    },
+    {
+      "char": "t",
+      "image": "https://s.coze.cn/image/ubuFeRKbxaU/",
+      "audio": "consonants/t.mp3"
+    },
+    {
+      "char": "n",
+      "image": "https://s.coze.cn/image/546LPMbbJOI/",
+      "audio": "consonants/n.mp3"
+    },
+    {
+      "char": "l",
+      "image": "https://s.coze.cn/image/PdtW8ny5Nnw/",
+      "audio": "consonants/l.mp3"
+    },
+    {
+      "char": "g",
+      "image": "https://s.coze.cn/image/vStSXFxeP0M/",
+      "audio": "consonants/g.mp3"
+    },
+    {
+      "char": "k",
+      "image": "https://s.coze.cn/image/7bh1G6DJhnQ/",
+      "audio": "consonants/k.mp3"
+    },
+    {
+      "char": "h",
+      "image": "https://s.coze.cn/image/gFUVuLs8BRU/",
+      "audio": "consonants/h.mp3"
+    },
+    {
+      "char": "j",
+      "image": "https://s.coze.cn/image/w3lW20ClE4U/",
+      "audio": "consonants/j.mp3"
+    },
+    {
+      "char": "q",
+      "image": "https://s.coze.cn/image/xD7aRTeWyEo/",
+      "audio": "consonants/q.mp3"
+    },
+    {
+      "char": "x",
+      "image": "https://s.coze.cn/image/riSaAam-fHY/",
+      "audio": "consonants/x.mp3"
+    },
+    {
+      "char": "zh",
+      "image": "https://s.coze.cn/image/-7vFfHFiCQo/",
+      "audio": "consonants/zh.mp3"
+    },
+    {
+      "char": "ch",
+      "image": "https://s.coze.cn/image/VQdugM-2Ma4/",
+      "audio": "consonants/ch.mp3"
+    },
+    {
+      "char": "sh",
+      "image": "https://s.coze.cn/image/dP9bH9VYpb0/",
+      "audio": "consonants/sh.mp3"
+    },
+    {
+      "char": "r",
+      "image": "https://s.coze.cn/image/zvNHa56Bhxg/",
+      "audio": "consonants/r.mp3"
+    },
+    {
+      "char": "z",
+      "image": "https://s.coze.cn/image/VfIa2v6Q6f0/",
+      "audio": "consonants/z.mp3"
+    },
+    {
+      "char": "c",
+      "image": "https://s.coze.cn/image/C1a6qEojUmo/",
+      "audio": "consonants/c.mp3"
+    },
+    {
+      "char": "s",
+      "image": "https://s.coze.cn/image/aYd39RyZafw/",
+      "audio": "consonants/s.mp3"
+    },
+    {
+      "char": "y",
+      "image": "https://s.coze.cn/image/DNVvmcUf2yo/",
+      "audio": "consonants/y.mp3"
+    },
+    {
+      "char": "w",
+      "image": "https://s.coze.cn/image/bxqftM31Vz0/",
+      "audio": "consonants/w.mp3"
+    }
+  ],
+  "vowels": [
+    {
+      "char": "a",
+      "image": "https://s.coze.cn/image/a8UvuDBzEo8/",
+      "audio": "vowels/a.mp3"
+    },
+    {
+      "char": "o",
+      "image": "https://s.coze.cn/image/78esnasr5y8/",
+      "audio": "vowels/o.mp3"
+    },
+    {
+      "char": "e",
+      "image": "https://s.coze.cn/image/MgKYMR72Q7E/",
+      "audio": "vowels/e.mp3"
+    },
+    {
+      "char": "i",
+      "image": "https://s.coze.cn/image/y8OgQmxTQsE/",
+      "audio": "vowels/i.mp3"
+    },
+    {
+      "char": "u",
+      "image": "https://s.coze.cn/image/th7M9SO26DE/",
+      "audio": "vowels/u.mp3"
+    },
+    {
+      "char": "ü",
+      "image": "https://s.coze.cn/image/e2yCO5Ay3dw/",
+      "audio": "vowels/v.mp3"
+    },
+    {
+      "char": "ai",
+      "image": "https://s.coze.cn/image/y0I5KHnxDc4/",
+      "audio": "vowels/ai.mp3"
+    },
+    {
+      "char": "ei",
+      "image": "https://s.coze.cn/image/l9WELIkd5Kc/",
+      "audio": "vowels/ei.mp3"
+    },
+    {
+      "char": "ui",
+      "image": "https://s.coze.cn/image/DDujolyXiW0/",
+      "audio": "vowels/ui.mp3"
+    },
+    {
+      "char": "ao",
+      "image": "https://s.coze.cn/image/s2Wg9VkNsp0/",
+      "audio": "vowels/ao.mp3"
+    },
+    {
+      "char": "ou",
+      "image": "https://s.coze.cn/image/tYiVGMRsl6U/",
+      "audio": "vowels/ou.mp3"
+    },
+    {
+      "char": "iu",
+      "image": "https://s.coze.cn/image/ExCyRRE3dtY/",
+      "audio": "vowels/iu.mp3"
+    },
+    {
+      "char": "ie",
+      "image": "https://s.coze.cn/image/OaSjtljRFMA/",
+      "audio": "vowels/ie.mp3"
+    },
+    {
+      "char": "üe",
+      "image": "https://s.coze.cn/image/TlLxGI1g5KM/",
+      "audio": "vowels/ve.mp3"
+    },
+    {
+      "char": "er",
+      "image": "https://s.coze.cn/image/6fJQYLc-8mg/",
+      "audio": "vowels/er.mp3"
+    },
+    {
+      "char": "an",
+      "image": "https://s.coze.cn/image/NzO_ZDtuzqM/",
+      "audio": "vowels/an.mp3"
+    },
+    {
+      "char": "en",
+      "image": "https://s.coze.cn/image/pjGu_wugAkw/",
+      "audio": "vowels/en.mp3"
+    },
+    {
+      "char": "in",
+      "image": "https://s.coze.cn/image/BrXbfot6Zl0/",
+      "audio": "vowels/in.mp3"
+    },
+    {
+      "char": "un",
+      "image": "https://s.coze.cn/image/mOzdgc83Gms/",
+      "audio": "vowels/un.mp3"
+    },
+    {
+      "char": "ün",
+      "image": "https://s.coze.cn/image/q6Mrp2aoM9E/",
+      "audio": "vowels/vn.mp3"
+    },
+    {
+      "char": "ang",
+      "image": "https://s.coze.cn/image/9A7wf0c5qoY/",
+      "audio": "vowels/ang.mp3"
+    },
+    {
+      "char": "eng",
+      "image": "https://s.coze.cn/image/wigt0B-juGw/",
+      "audio": "vowels/eng.mp3"
+    },
+    {
+      "char": "ing",
+      "image": "https://s.coze.cn/image/hvv5XyEnfTc/",
+      "audio": "vowels/ing.mp3"
+    },
+    {
+      "char": "ong",
+      "image": "https://s.coze.cn/image/HuRkQwvbsDY/",
+      "audio": "vowels/ong.mp3"
+    }
+  ],
+  "tones": {
+    "singleVowelTones": [
+      {
+        "char": "a",
+        "fourTone": [
+          {
+            "char": "ā",
+            "audio": "tones/a1.mp3"
+          },
+          {
+            "char": "á",
+            "audio": "tones/a2.mp3"
+          },
+          {
+            "char": "ǎ",
+            "audio": "tones/a3.mp3"
+          },
+          {
+            "char": "à",
+            "audio": "tones/a4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "o",
+        "fourTone": [
+          {
+            "char": "ō",
+            "audio": "tones/o1.mp3"
+          },
+          {
+            "char": "ó",
+            "audio": "tones/o2.mp3"
+          },
+          {
+            "char": "ǒ",
+            "audio": "tones/o3.mp3"
+          },
+          {
+            "char": "ò",
+            "audio": "tones/o4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "e",
+        "fourTone": [
+          {
+            "char": "ē",
+            "audio": "tones/e1.mp3"
+          },
+          {
+            "char": "é",
+            "audio": "tones/e2.mp3"
+          },
+          {
+            "char": "ě",
+            "audio": "tones/e3.mp3"
+          },
+          {
+            "char": "è",
+            "audio": "tones/e4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "i",
+        "fourTone": [
+          {
+            "char": "ī",
+            "audio": "tones/i1.mp3"
+          },
+          {
+            "char": "í",
+            "audio": "tones/i2.mp3"
+          },
+          {
+            "char": "ǐ",
+            "audio": "tones/i3.mp3"
+          },
+          {
+            "char": "ì",
+            "audio": "tones/i4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "u",
+        "fourTone": [
+          {
+            "char": "ū",
+            "audio": "tones/u1.mp3"
+          },
+          {
+            "char": "ú",
+            "audio": "tones/u2.mp3"
+          },
+          {
+            "char": "ǔ",
+            "audio": "tones/u3.mp3"
+          },
+          {
+            "char": "ù",
+            "audio": "tones/u4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ü",
+        "fourTone": [
+          {
+            "char": "ǖ",
+            "audio": "tones/v1.mp3"
+          },
+          {
+            "char": "ǘ",
+            "audio": "tones/v2.mp3"
+          },
+          {
+            "char": "ǚ",
+            "audio": "tones/v3.mp3"
+          },
+          {
+            "char": "ǜ",
+            "audio": "tones/v4.mp3"
+          }
+        ]
+      }
+    ],
+    "doubleVowelTones": [
+      {
+        "char": "ai",
+        "fourTone": [
+          {
+            "char": "āi",
+            "audio": "tones/ai1.mp3"
+          },
+          {
+            "char": "ái",
+            "audio": "tones/ai2.mp3"
+          },
+          {
+            "char": "ǎi",
+            "audio": "tones/ai3.mp3"
+          },
+          {
+            "char": "ài",
+            "audio": "tones/ai4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ei",
+        "fourTone": [
+          {
+            "char": "ēi",
+            "audio": "tones/ei1.mp3"
+          },
+          {
+            "char": "éi",
+            "audio": "tones/ei2.mp3"
+          },
+          {
+            "char": "ěi",
+            "audio": "tones/ei3.mp3"
+          },
+          {
+            "char": "èi",
+            "audio": "tones/ei4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ui",
+        "fourTone": [
+          {
+            "char": "ūi",
+            "audio": "tones/ui1.mp3"
+          },
+          {
+            "char": "úi",
+            "audio": "tones/ui2.mp3"
+          },
+          {
+            "char": "ǔi",
+            "audio": "tones/ui3.mp3"
+          },
+          {
+            "char": "ùi",
+            "audio": "tones/ui4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ao",
+        "fourTone": [
+          {
+            "char": "āo",
+            "audio": "tones/ao1.mp3"
+          },
+          {
+            "char": "áo",
+            "audio": "tones/ao2.mp3"
+          },
+          {
+            "char": "ǎo",
+            "audio": "tones/ao3.mp3"
+          },
+          {
+            "char": "ào",
+            "audio": "tones/ao4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ou",
+        "fourTone": [
+          {
+            "char": "ōu",
+            "audio": "tones/ou1.mp3"
+          },
+          {
+            "char": "óu",
+            "audio": "tones/ou2.mp3"
+          },
+          {
+            "char": "ǒu",
+            "audio": "tones/ou3.mp3"
+          },
+          {
+            "char": "òu",
+            "audio": "tones/ou4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "iu",
+        "fourTone": [
+          {
+            "char": "īu",
+            "audio": "tones/iu1.mp3"
+          },
+          {
+            "char": "íu",
+            "audio": "tones/iu2.mp3"
+          },
+          {
+            "char": "ǐu",
+            "audio": "tones/iu3.mp3"
+          },
+          {
+            "char": "ìu",
+            "audio": "tones/iu4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ie",
+        "fourTone": [
+          {
+            "char": "īe",
+            "audio": "tones/ie1.mp3"
+          },
+          {
+            "char": "íe",
+            "audio": "tones/ie2.mp3"
+          },
+          {
+            "char": "ǐe",
+            "audio": "tones/ie3.mp3"
+          },
+          {
+            "char": "ìe",
+            "audio": "tones/ie4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "üe",
+        "fourTone": [
+          {
+            "char": "ǖe",
+            "audio": "tones/üe1.mp3"
+          },
+          {
+            "char": "ǘe",
+            "audio": "tones/üe2.mp3"
+          },
+          {
+            "char": "ǚe",
+            "audio": "tones/üe3.mp3"
+          },
+          {
+            "char": "ǜe",
+            "audio": "tones/üe4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "er",
+        "fourTone": [
+          {
+            "char": "ēr",
+            "audio": "tones/er1.mp3"
+          },
+          {
+            "char": "ér",
+            "audio": "tones/er2.mp3"
+          },
+          {
+            "char": "ěr",
+            "audio": "tones/er3.mp3"
+          },
+          {
+            "char": "èr",
+            "audio": "tones/er4.mp3"
+          }
+        ]
+      }
+    ],
+    "noseVowelTones": [
+      {
+        "char": "an",
+        "fourTone": [
+          {
+            "char": "ān",
+            "audio": "tones/an1.mp3"
+          },
+          {
+            "char": "án",
+            "audio": "tones/an2.mp3"
+          },
+          {
+            "char": "ǎn",
+            "audio": "tones/an3.mp3"
+          },
+          {
+            "char": "àn",
+            "audio": "tones/an4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "en",
+        "fourTone": [
+          {
+            "char": "ēn",
+            "audio": "tones/en1.mp3"
+          },
+          {
+            "char": "én",
+            "audio": "tones/en2.mp3"
+          },
+          {
+            "char": "ěn",
+            "audio": "tones/en3.mp3"
+          },
+          {
+            "char": "èn",
+            "audio": "tones/en4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "in",
+        "fourTone": [
+          {
+            "char": "īn",
+            "audio": "tones/in1.mp3"
+          },
+          {
+            "char": "ín",
+            "audio": "tones/in2.mp3"
+          },
+          {
+            "char": "ǐn",
+            "audio": "tones/in3.mp3"
+          },
+          {
+            "char": "ìn",
+            "audio": "tones/in4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "un",
+        "fourTone": [
+          {
+            "char": "ūn",
+            "audio": "tones/un1.mp3"
+          },
+          {
+            "char": "ún",
+            "audio": "tones/un2.mp3"
+          },
+          {
+            "char": "ǔn",
+            "audio": "tones/un3.mp3"
+          },
+          {
+            "char": "ùn",
+            "audio": "tones/un4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ün",
+        "fourTone": [
+          {
+            "char": "ǖn",
+            "audio": "tones/ün1.mp3"
+          },
+          {
+            "char": "ǘn",
+            "audio": "tones/ün2.mp3"
+          },
+          {
+            "char": "ǚn",
+            "audio": "tones/ün3.mp3"
+          },
+          {
+            "char": "ǜn",
+            "audio": "tones/ün4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ang",
+        "fourTone": [
+          {
+            "char": "āng",
+            "audio": "tones/ang1.mp3"
+          },
+          {
+            "char": "áng",
+            "audio": "tones/ang2.mp3"
+          },
+          {
+            "char": "ǎng",
+            "audio": "tones/ang3.mp3"
+          },
+          {
+            "char": "àng",
+            "audio": "tones/ang4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "eng",
+        "fourTone": [
+          {
+            "char": "ēng",
+            "audio": "tones/eng1.mp3"
+          },
+          {
+            "char": "éng",
+            "audio": "tones/eng2.mp3"
+          },
+          {
+            "char": "ěng",
+            "audio": "tones/eng3.mp3"
+          },
+          {
+            "char": "èng",
+            "audio": "tones/eng4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ing",
+        "fourTone": [
+          {
+            "char": "īng",
+            "audio": "tones/ing1.mp3"
+          },
+          {
+            "char": "íng",
+            "audio": "tones/ing2.mp3"
+          },
+          {
+            "char": "ǐng",
+            "audio": "tones/ing3.mp3"
+          },
+          {
+            "char": "ìng",
+            "audio": "tones/ing4.mp3"
+          }
+        ]
+      },
+      {
+        "char": "ong",
+        "fourTone": [
+          {
+            "char": "ōng",
+            "audio": "tones/ong1.mp3"
+          },
+          {
+            "char": "óng",
+            "audio": "tones/ong2.mp3"
+          },
+          {
+            "char": "ǒng",
+            "audio": "tones/ong3.mp3"
+          },
+          {
+            "char": "òng",
+            "audio": "tones/ong4.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}
