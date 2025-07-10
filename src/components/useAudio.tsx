@@ -6,22 +6,28 @@ export const useAudio = () => {
   const audioRef = useRef<HTMLAudioElement>(null)
 
   useEffect(() => {
-    if (source) {
-      audioRef.current = new Audio(source)
-      // console.log(`useEffect: play ${source}`)
-      audioRef.current.onended = () => {
-        setIsPlaying(false)
+    try {
+      if (source) {
+        audioRef.current = new Audio(source)
+        // console.log(`useEffect: play ${source}`)
+        audioRef.current.onended = () => {
+          setIsPlaying(false)
+        }
+        playAudio()
+        return () => {
+          pauseAudio()
+        }
       }
-      playAudio()
-      return () => {
-        pauseAudio()
-      }
+    } catch (err) {
+      console.error(`Error: ${err}`)
     }
   }, [source])
   const playAudio = () => {
     if (audioRef.current) {
       setIsPlaying(true)
-      audioRef.current.play()
+      audioRef.current.play().catch((err) => {
+        console.error(`Error: ${err}`)
+      })
     }
   }
   const pauseAudio = () => {

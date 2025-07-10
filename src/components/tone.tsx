@@ -60,7 +60,7 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
             </div>
             <div className="tone-card bg-yellow-50 p-4 rounded-xl text-center cursor-pointer" onClick={() => {
               const path = `/assets/${tone.fourTone[1].audio}`
-              handleChangeSource({ newSource: path, char: tone.fourTone[0].char })
+              handleChangeSource({ newSource: path, char: tone.fourTone[1].char })
             }}>
               {/* <div className="text-5xl text-yellow-600 mb-2">ˊ</div>
               <h3 className="text-xl font-bold">第二声</h3>
@@ -69,7 +69,7 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
             </div>
             <div className="tone-card bg-blue-50 p-4 rounded-xl text-center cursor-pointer" onClick={() => {
               const path = `/assets/${tone.fourTone[2].audio}`
-              handleChangeSource({ newSource: path, char: tone.fourTone[0].char })
+              handleChangeSource({ newSource: path, char: tone.fourTone[2].char })
             }}>
               {/* <div className="text-5xl text-blue-600 mb-2">ˇ</div>
               <h3 className="text-xl font-bold">第三声</h3>
@@ -78,7 +78,7 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
             </div>
             <div className="tone-card bg-red-50 p-4 rounded-xl text-center cursor-pointer" onClick={() => {
               const path = `/assets/${tone.fourTone[3].audio}`
-              handleChangeSource({ newSource: path, char: tone.fourTone[0].char })
+              handleChangeSource({ newSource: path, char: tone.fourTone[3].char })
             }}>
               {/* <div className="text-5xl text-red-600 mb-2">ˋ</div>
               <h3 className="text-xl font-bold">第四声</h3>
@@ -97,9 +97,9 @@ export const Tone = ({ hidden, handleNav }: { hidden: boolean, handleNav: (n: nu
                   setTone(tones[e.target.value as ToneType][0])
                 }}>
                   {/* 选项将通过JS动态添加 */}
-                  <option value="singleVowelTones"><span>单韵母：</span><span className="mono-font">a o e ...</span></option>
-                  <option value="doubleVowelTones"><span>复韵母：</span><span className="mono-font">ai ei ui ...</span></option>
-                  <option value="noseVowelTones"><span>鼻韵母：</span><span className="mono-font">an en in ...</span></option>
+                  <option value="singleVowelTones">单韵母：a o e ...</option>
+                  <option value="doubleVowelTones">复韵母：ai ei ui ...</option>
+                  <option value="noseVowelTones">鼻韵母：an en in ...</option>
                 </select>
               </div>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 justify-items-center gap-4">
