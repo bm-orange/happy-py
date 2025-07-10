@@ -5,7 +5,7 @@ export const Welcome = function ({ hidden, handleNav }: { hidden: boolean, handl
       <div className="text-center mb-12">
         <h1 className="text-5xl md:text-6xl font-bold text-purple-600 mb-4">快乐拼音岛</h1>
         <p className="text-2xl md:text-3xl text-orange-500">
-          一起来学习有趣的汉语拼音吧！
+          一起来学习汉语拼音吧！
         </p>
       </div>
       {/* image bg */}

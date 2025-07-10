@@ -520,19 +520,19 @@
         "fourTone": [
           {
             "char": "ǖe",
-            "audio": "tones/üe1.mp3"
+            "audio": "tones/ve1.mp3"
           },
           {
             "char": "ǘe",
-            "audio": "tones/üe2.mp3"
+            "audio": "tones/ve2.mp3"
           },
           {
             "char": "ǚe",
-            "audio": "tones/üe3.mp3"
+            "audio": "tones/ve3.mp3"
           },
           {
             "char": "ǜe",
-            "audio": "tones/üe4.mp3"
+            "audio": "tones/ve4.mp3"
           }
         ]
       },
@@ -648,19 +648,19 @@
         "fourTone": [
           {
             "char": "ǖn",
-            "audio": "tones/ün1.mp3"
+            "audio": "tones/vn1.mp3"
           },
           {
             "char": "ǘn",
-            "audio": "tones/ün2.mp3"
+            "audio": "tones/vn2.mp3"
           },
           {
             "char": "ǚn",
-            "audio": "tones/ün3.mp3"
+            "audio": "tones/vn3.mp3"
           },
           {
             "char": "ǜn",
-            "audio": "tones/ün4.mp3"
+            "audio": "tones/vn4.mp3"
           }
         ]
       },
