@@ -20,6 +20,7 @@ export const useAudio = () => {
       }
     } catch (err) {
       console.error(`Error: ${err}`)
+      setIsPlaying(false)
     }
   }, [source])
   const playAudio = () => {
@@ -27,6 +28,7 @@ export const useAudio = () => {
       setIsPlaying(true)
       audioRef.current.play().catch((err) => {
         console.error(`Error: ${err}`)
+        setIsPlaying(false)
       })
     }
   }
